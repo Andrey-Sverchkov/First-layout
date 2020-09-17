@@ -1,0 +1,144 @@
+body {
+    width: 1600px;
+}
+#header {
+    position: absolute;
+    width: 1415px;
+    height: 786px;
+    margin-top: 35px;
+    margin-left: 80px;
+ }
+#logo {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    margin-left: 111px;
+    margin-top: 10px;
+}
+#menu {
+    width: 663px;
+    height: 60px;
+    margin-left: 667px;
+    margin-top: 0px;
+    display: flex;
+    Justify-content: space-between;
+}
+#tabs {
+    display: flex;
+    Justify-content: space-between;
+    align-items: center;
+    width: 531px;
+    padding-right: 18px;
+}
+#first_tab {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #202336;
+}
+.next_tab {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #B8BECD;
+}
+.button_Login {
+    width: 132px;
+    height: 60px;
+    border: 1px solid #FB8F1D;
+    border-radius: 10px;
+    background-color: white;
+    color: #FB8F1D;
+}
+.button_Register {
+    background-color: #FB8F1D;
+    color: white;
+}
+#background_header {
+    position: absolute;
+    width: 687px;
+    height: 654px;
+    margin-top: 72px;
+    margin-left: 728px;
+}
+#heading {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    height: 160px;
+    color: #202336;
+    margin-left: 109px;
+    position: absolute;
+    margin-top: 105px; 
+}
+#cross {
+    position: absolute;
+    margin-left: 557px;
+    margin-top: 125px;
+}
+#circle {
+    width: 26px;
+    height: 26px; 
+    position: absolute;
+    margin-top: 399px;
+}
+#holiday {
+    margin-top: 339px;
+    margin-left: 110px;
+}
+#search {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+#devil {
+    width: 32px;
+    height: 2px;
+    background: #202336;
+    border-radius: 4px;
+    margin-top: 21px;
+}
+#seat_selection {
+    margin-top: 48px;
+}
+.list {
+    width: 220px;
+    height: 52px;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    text-align: center;
+    text-align-last: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+#indent_top {
+    margin-top: 35px;
+}
+.indent_left {
+    margin-left: 30px;
+}
+#button_Explore {
+    width: 180px;
+    height: 60px;
+    margin-top: 47px;
+    background-color: #FB8F1D;
+    border-radius: 8px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: #FFFFFF;
+    border: 1px solid #FB8F1D;
+}
+#circle_2 {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 652px;
+}

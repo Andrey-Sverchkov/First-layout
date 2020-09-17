@@ -3,14 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>First layout</title>
     <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Макет</h2>
-    <p>Верстка</p>
-    <h>sfjhdsfjh</h>
-    <h1>hkjshadjksh</h1>
+    <header id='header'>
+        <img id='logo' src="img/logo.png" alt="the logo">
+        <div id='menu'>
+            <ol id='tabs'>
+                <li id='first_tab'>Home</li>
+                <li class='next_tab'>Destinations</li>
+                <li class='next_tab'>About</li>
+                <li class='next_tab'>Partner</li>
+                <button class='button_Login'>Login</button>
+                <!--<button class='button_Login button_Register'>Register</button>-->
+            </ol>
+            <button class='button_Login button_Register'>Register</button>
+        </div>
+        <img id='background_header' src="img/background_header.png" alt="background header">
+        <div>
+            <p id="heading">Explore and<br> Travel</p>
+            <img id='cross' src="img/cross.png" alt="site design">
+            <img id='circle' src="img/circle.png" alt="picture">
+        </div>
+        <div id='holiday'>
+            <p id='search'>Holiday finder</p>
+            <div id='devil'></div>
+            <div id='seat_selection'>
+                <select class='list'>
+                    <option>Location</option>
+                    <option>Indonesia</option>
+                    <option>China</option>
+                    <option>Switzerland</option>
+                    <option>Montenegro</option>
+                </select>
+                <select class='list indent_left'>
+                    <option style="align=center">Activity</option>
+                    <option>Tourism</option>
+                    <option>Recreation</option>
+                    <option>Mountaineering</option>
+                </select>
+                </br>
+                <select class='list' id='indent_top'>
+                    <option>Grade</option>
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                </select>
+                <input class='list indent_left' id='indent_top'   
+                type="date" name="calendar" value="Date"
+                max="2030-05-29" min="2020-09-04">
+            </div>
+           <button id='button_Explore'>Explore</button>
+           
+        </div>
+        <img id='circle_2' src="img/circle.png" alt="picture">
+        
+    </header>
 </body>
 </html>
