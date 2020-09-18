@@ -2,7 +2,7 @@ body {
     width: 1600px;
 }
 #header {
-    position: absolute;
+    /*position: absolute;*/
     width: 1415px;
     height: 786px;
     margin-top: 35px;
@@ -76,6 +76,8 @@ body {
     margin-top: 105px; 
 }
 #cross {
+    width: 20px;
+    height: 20px;
     position: absolute;
     margin-left: 557px;
     margin-top: 125px;
@@ -141,4 +143,55 @@ body {
     height: 20px;
     margin-top: 5px;
     margin-left: 652px;
+}
+
+/*верстка article_1*/
+
+#container_1 {
+    margin-top: 270px;
+    margin-left: 141px;
+}
+#cross_2 {
+    width: 20px;
+    height: 20px;
+    margin-left: 685px;
+    position: absolute;
+}
+#background_article {
+    width: 659px;
+    height: 534px;
+    margin-top: 16px;
+    position: absolute;
+}
+#text {
+    margin-left: 761px;
+    width: 460px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+    position: absolute;
+}
+#heading_container_1 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+    /*word-break: break-all;*/ 
+}   
+.button_Learn {
+    width: 164px;
+    margin-top: 33px;
+}
+#circle_3 {
+    width: 20px;
+    height: 20px;
+    margin-left: 163px;
+    margin-top: 26px;
+    position: absolute;
 }
