@@ -238,10 +238,10 @@ body {
     display: flex;
     align-items: center;
 }
-#cross_css {
+.cross_css {
     width: 20px;
     height: 20px;
-    position: relative;
+    /*position: relative;*/
     display: flex;
     align-items: center;
     margin-top: 249px;
@@ -274,4 +274,53 @@ body {
 #circle_location {
     margin-top: 39px;
     margin-left: 622px;
+}
+
+     /*Верстка article_3*/
+
+#container_3 {
+    margin-top: 173px;
+    margin-left: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+#first_column {
+    width: 450px;
+}
+#circle_location_2 {
+    margin-left: 45px;
+    margin-top: 85px;
+    margin-bottom: 47px;
+}
+.container_paragraph {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-top: 20px;
+}
+.button_Download {
+    width: 164px;
+    height: 48px;
+    margin-top: 39px;
+    position: absolute;
+}
+#cross_location {
+    margin-top: 58px;
+    margin-left: 416px;
+    transform: rotate(20deg);
+}
+#second_column {
+    width: 677px;
+    display: flex;
+}
+#background_article_3 {
+    width: 599px;
+    height: 542px;
+}
+#cross_location_2 {
+    margin-top: 37px;
+    margin-left: 657px;
 }
