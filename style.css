@@ -396,3 +396,47 @@ body {
     height: 523px;
     margin-top: 93px;
 }
+
+/*Верстка article_5*/
+
+#container_5 {
+    width: 1222px;
+    margin-top: 213px;
+    margin-left: 143px;
+}
+#cross_location_3 {
+    margin: 0;
+    margin-left: 501px;
+}
+#heading_container_3 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 97px;
+    padding-top: 54px;
+}
+.heading_container_location {
+    margin: 0;
+}
+#block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+#circle_location_4 {
+    margin: 0;
+    margin-top: 262px;
+}
+#Trending_stories {
+    width: 1125px;
+    display: flex;
+    justify-content: space-between;
+}
+.stories {
+    width: 266px;
+    height: 446px;
+}
+#circle_location_5 {
+    margin: 0;
+    margin-top: 55px;
+    margin-left: 837px;
+}
