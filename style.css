@@ -440,3 +440,68 @@ body {
     margin-top: 55px;
     margin-left: 837px;
 }
+
+/*Верстка footer*/
+
+footer {
+    margin-top: 274px;
+}
+#colum {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 190px;
+    margin-right: 178px;
+}
+#footer_text {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #848484;
+    margin-top: 26px;
+}
+#first_colum {
+    width: 391px;
+}
+#logo_location {
+    width: 44px;
+    height: 44px;
+}
+.footer_text_location {
+    margin-top: 55px;
+}
+#name_second_colum {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 60px;
+    color: #000000;
+}
+#text_second_colum {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #848484;
+}
+#line_style {
+    margin-top: 81px;
+    margin-left: 191px;
+    margin-right: 190px;
+    height: 0.6px;
+    background: #C4C4C4;
+}
+#link_to_messenger {
+    width: 248px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 644px;
+}
+#img_footer {
+    width: 23px;
+    height: 23px;
+}
